@@ -1,13 +1,43 @@
 # BicoDin
-Nesse repositório encontrasse o sistema em desenvolvimento da plataforma **BicoDin** .
 Para os trabalhadores autônomos e informais com dificuldades em conseguir clientes, o **BicoDin** é uma plataforma online, que reúne perfis de trabalhadores promovendo maior visibilidade e conectando-os a potenciais clientes.
 Diferente de boca-a-boca e redes sociais, a nossa plataforma, que é focada em trabalhadores de baixa e média renda, apresenta o perfil profissional dos trabalhadores e tem mecanismos de verificação e avaliação que proporcionam segurança aos usuários.
 
+O deploy do BicoDin é feito na Outsystems Cloud e pode ser acessado [aqui](https://larissa-feliciana.outsystemscloud.com/MeuBico/).
+
+Contas populadas para teste:
+
+Trabalhador  
+          
+             
+              login: "maria@email.com"
+
+              senha: "senha"
+
+Contratante  
+
+              login: "ana@email.com"
+
+              senha: "senha"
+
+Nesse repositório encontrasse o sistema em desenvolvimento da plataforma **BicoDin** . Para o desenvolvimento da plataforma foi utilizado a ferramenta Outsystems + CSS + SQL. Todos os componentes (incluindo as folhas de estilo, banco de dados, funções e fluxos das telas) só podem ser acessados através do Service Studio do Outsystems.
+
+Foram desenvolvidas as seguintes páginas:
+
+
+![](https://scontent.frec20-1.fna.fbcdn.net/v/t1.15752-9/98306577_702546377172221_7960025583037972480_n.png?_nc_cat=109&_nc_sid=b96e70&_nc_oc=AQmfA0FODI6bQxcDfRAbPmdbJb1A4J0axJOhLnjxZNYyKsjZG2j4XnrnDxuw6Q-s984&_nc_ht=scontent.frec20-1.fna&oh=f0dcc01fc498040789bb41b990a87723&oe=5EE5F7DC)
+
+
+A estrutura usada no Banco de Dados pode ser visto no diagrama abaixo: 
+\
+![](https://scontent.frec20-1.fna.fbcdn.net/v/t1.15752-9/98182175_572155540348656_2479658089414918144_n.png?_nc_cat=111&_nc_sid=b96e70&_nc_oc=AQlCjahMiq9fhT-ox-OcZti1uvTghUqJX17iHtHhSp5EGtG91hhwQjHNDuaYD7lcqb0&_nc_ht=scontent.frec20-1.fna&oh=0687de5ac80b23f5295d71de5410be34&oe=5EE5CE24)
+
+
+
 Para ter acesso a códigos fontes, banco de dados, folhas de estilo e outros siga os seguintes passos:
 
-1. Instale a ferramneta [Outsystems Service Studio](https://www.outsystems.com/downloads/) (Windows)
+1. Instale a ferramenta [Outsystems Service Studio](https://www.outsystems.com/downloads/) (Windows)
 2. Clone esse repositório através do seguinte comando no terminal 
-``git clone``
+``git clone github.com/larifeliciana/BicoDin``
 3. Com o Service Studio aberto: clique em 'Environment' -> 'Open Files' -> Selecione os arquivos clonados.
 
 No arquivo *bicodin_DB.oml* encontrasse o banco de dados *SQL*, dá aplicação. 
