@@ -1,5 +1,5 @@
 # BicoDin
-Nesse repositório encontrasse o sistema em desenvolvimento da plataforma **BicoDin** . Para o desenvolvimento da plataforma foi utilizado a ferramente Outsystems + CSS + SQL. Todos os componentes (incluindo as folhas de estilo, banco de dados, funções e fluxos das telas) só podem ser acessados através do Service Studio do Outsystems.
+Nesse repositório encontrasse o sistema em desenvolvimento da plataforma **BicoDin** . Para o desenvolvimento da plataforma foi utilizado a ferramenta Outsystems + CSS + SQL. Todos os componentes (incluindo as folhas de estilo, banco de dados, funções e fluxos das telas) só podem ser acessados através do Service Studio do Outsystems.
 
 Foram desenvolvidas as seguintes páginas:
 
@@ -16,9 +16,9 @@ Diferente de boca-a-boca e redes sociais, a nossa plataforma, que é focada em t
 
 Para ter acesso a códigos fontes, banco de dados, folhas de estilo e outros siga os seguintes passos:
 
-1. Instale a ferramneta [Outsystems Service Studio](https://www.outsystems.com/downloads/) (Windows)
+1. Instale a ferramenta [Outsystems Service Studio](https://www.outsystems.com/downloads/) (Windows)
 2. Clone esse repositório através do seguinte comando no terminal 
-``git clone``
+``git clone github.com/larifeliciana/BicoDin``
 3. Com o Service Studio aberto: clique em 'Environment' -> 'Open Files' -> Selecione os arquivos clonados.
 
 No arquivo *bicodin_DB.oml* encontrasse o banco de dados *SQL*, dá aplicação. 
